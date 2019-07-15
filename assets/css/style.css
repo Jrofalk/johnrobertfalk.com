@@ -1,8 +1,7 @@
 .navbar {
     height: 100px;
-    opacity: .4;
+    background: rgba(255, 255, 255, 0.4);
     font-family: 'Bahianita', cursive;
     font-family: 'Yantramanav', sans-serif;
 }
-
 
