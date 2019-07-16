@@ -3,5 +3,19 @@
     background: rgba(255, 255, 255, 0.4);
     font-family: 'Bahianita', cursive;
     font-family: 'Yantramanav', sans-serif;
+    
 }
+
+.jumbotron {
+    height: 200px;
+}
+
+#work-link{
+    color: black !important;
+}
+
+#work{
+    margin-top: 100px;
+}
+
 
