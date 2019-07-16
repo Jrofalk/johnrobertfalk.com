@@ -15,7 +15,7 @@
     position: relative;
 }
   
-.jumbotron {
+#work {
     opacity: 1;
     display: block;
     width: 100%;
@@ -23,6 +23,7 @@
     transition: .3s ease;
     backface-visibility: hidden;
     height: 200px;
+    margin-top: 100px;
 }
   
 .middle {
@@ -36,7 +37,7 @@
     text-align: center;
 }
   
-.container:hover .jumbotron {
+.container:hover #work {
     opacity: 0.3;
 }
   
@@ -51,7 +52,4 @@
 }
 
 
-#work{
-    margin-top: 100px;
-}
 
