@@ -1,21 +1,33 @@
 .navbar {
+    margin-top: 25px;
     height: 100px;
-    background: rgba(255, 255, 255, 0.4);
-    font-family: 'Bahianita', cursive;
-    font-family: 'Yantramanav', sans-serif;
-    
+    background: rgba(255, 255, 255, 0.4); 
 }
 
 .jumbotron {
     height: 200px;
 }
 
+.container {
+    font-family: 'Bahianita', cursive;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.text{
+    color: black;
+    font-size: 24px;
+    padding: 16px 32px;
+}
 
 #container-one {
     position: relative;
 }
 
 #container-two{
+    position: relative;
+}
+
+#container-three{
     position: relative;
 }
   
@@ -27,10 +39,20 @@
     transition: .3s ease;
     backface-visibility: hidden;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #about {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .3s ease;
+    backface-visibility: hidden;
+    height: 200px;
+}
+
+#contact{
     opacity: 1;
     display: block;
     width: 100%;
@@ -61,12 +83,28 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+
+#middle-three {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
   
 #container-one:hover #work {
     opacity: 0.3;
 }
 
 #container-two:hover #about {
+    opacity: 0.3;
+}
+
+#container-three:hover #contact {
     opacity: 0.3;
 }
   
@@ -77,9 +115,9 @@
 #container-two:hover #middle-two {
     opacity: 1;
 }
-  
-.text{
-    color: black;
-    font-size: 24px;
-    padding: 16px 32px;
+
+#container-three:hover #middle-three {
+    opacity: 1;
 }
+  
+
