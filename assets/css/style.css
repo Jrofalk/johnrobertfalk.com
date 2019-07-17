@@ -1,3 +1,8 @@
+form{
+    margin-top: 25px;
+}
+
+
 .navbar {
     height: 100px;
     background: rgba(255, 255, 255, 0.4); 
@@ -19,9 +24,21 @@
     padding: 16px 32px;
 }
 
+.form-group{
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Bahianita', cursive;
+    font-family: 'Yantramanav', sans-serif;
+
+}
+
 
 #name{
     font-size: 24px;
+}
+
+#contact-form-message{
+    margin-top: 35px;
 }
 
 #container-one {
@@ -34,6 +51,7 @@
     font-family: 'Bahianita', cursive;
     font-family: 'Yantramanav', sans-serif;
     height: 50px;
+    margin-bottom: 5px;
 }
 
 
