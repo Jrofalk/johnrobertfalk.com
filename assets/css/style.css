@@ -7,6 +7,7 @@
     height: 200px;
 }
 
+
 .container {
     font-family: 'Bahianita', cursive;
     font-family: 'Yantramanav', sans-serif;
@@ -18,6 +19,7 @@
     padding: 16px 32px;
 }
 
+
 #name{
     font-size: 24px;
 }
@@ -25,6 +27,15 @@
 #container-one {
     position: relative;
 }
+
+#contact-title{
+    margin-top: 50px;
+    background-color:transparent !important;
+    font-family: 'Bahianita', cursive;
+    font-family: 'Yantramanav', sans-serif;
+    height: 50px;
+}
+
 
 #container-two{
     position: relative;
