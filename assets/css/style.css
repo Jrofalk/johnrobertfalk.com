@@ -151,5 +151,9 @@ form{
 #container-three:hover #middle-three {
     opacity: 1;
 }
+
+#message-field{
+    margin-bottom: 50px;
+}
   
 
