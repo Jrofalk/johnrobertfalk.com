@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bahianita|Yantramanav&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>John Falk</title>
-    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
 
 </head>
 
@@ -82,10 +82,6 @@
     </div>
 
 
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
 
@@ -107,11 +103,23 @@
         var email = "";
         var message = "";
 
-        $("#add-user").on("click", function (event) {
+        $("#submit").on("click", function (event) {
             event.preventDefault();
 
+            name = $("#name-field").val().trim();
+            email = $("#email-field").val().trim();
+            message = $("#message-field").val().trim();
 
+            database.ref().push({
+                name: name,
+                email: email,
+                message: message
+            });
 
+            $("#name-field").val("");
+            $("#email-field").val("");
+            $("#message-field").val("");
+        });
 
     </script>
 
