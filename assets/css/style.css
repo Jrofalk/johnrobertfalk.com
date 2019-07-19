@@ -154,8 +154,11 @@ form{
     opacity: 1;
 }
 
-#message-field{
+#submit{
     margin-bottom: 50px;
+    font-family: 'Bahianita', cursive;
+    font-family: 'Yantramanav', sans-serif;
+    padding: 5px 10px;
 }
   
 

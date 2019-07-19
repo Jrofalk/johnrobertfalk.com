@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Bahianita|Yantramanav&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>John Falk</title>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+
 </head>
 
 <body>
@@ -33,16 +35,16 @@
     <div class='row'>
         <div class='col-md-12 text-center'>
             <a href='https://www.linkedin.com/in/john-falk' id='icon-links'>
-            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                <i class="fa fa-linkedin-square" style="font-size:24px"></i>
             </a>
             <a href='https://github.com/Jrofalk' id='icon-links'>
-            <i class="fa fa-github" aria-hidden="true" style="font-size:24px"></i>
+                <i class="fa fa-github" aria-hidden="true" style="font-size:24px"></i>
             </a>
             <a href="mailto:jrofalk@gmail.com?Subject=Hello%20" target="_top" id='icon-links'>
-            <i class="fa fa-envelope" aria-hidden="true" style="font-size:24px"></i>
+                <i class="fa fa-envelope" aria-hidden="true" style="font-size:24px"></i>
             </a>
             <a href="tel:+17175423823" id='icon-links'>
-            <i class="fa fa-phone" style="font-size:24px"></i>
+                <i class="fa fa-phone" style="font-size:24px"></i>
             </a>
         </div>
     </div>
@@ -68,6 +70,13 @@
             <label for="message">*Message</label>
             <textarea class="form-control" id="message-field" rows="4"></textarea>
         </div>
+        <br>
+        <div class="form-group">
+            <div class='text-center'>
+                <button type="submit" class="btn-outline" and style="background-color:transparent"
+                    id='submit'>Submit</button>
+            </div>
+        </div>
     </form>
 
     </div>
@@ -79,6 +88,27 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
+
+        var firebaseConfig = {
+            apiKey: "AIzaSyBtBAQbw0rcgul-d11m5mm8FO4fy4yWIp8",
+            authDomain: "portfolio-site-a6aca.firebaseapp.com",
+            databaseURL: "https://portfolio-site-a6aca.firebaseio.com",
+            projectId: "portfolio-site-a6aca",
+            storageBucket: "",
+            messagingSenderId: "632189778460",
+            appId: "1:632189778460:web:077486a09481259c"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+
+        var database = firebase.database();
+
+        var name = "";
+        var email = "";
+        var message = "";
+
+        $("#add-user").on("click", function (event) {
+            event.preventDefault();
 
 
 
