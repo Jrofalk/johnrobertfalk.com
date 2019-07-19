@@ -4,7 +4,7 @@ form{
 
 
 .navbar {
-    height: 100px;
+    height: 75px;
     background: rgba(255, 255, 255, 0.4); 
 }
 
@@ -79,6 +79,11 @@ form{
     transition: .3s ease;
     backface-visibility: hidden;
     height: 200px;
+}
+
+#icon-links{
+    text-decoration: none;
+    color: black;
 }
 
 #contact{
