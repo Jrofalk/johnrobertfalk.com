@@ -1,5 +1,5 @@
 form{
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 
@@ -31,13 +31,38 @@ form{
     font-family: 'Yantramanav', sans-serif;
 }
 
-#name{
-    font-size: 24px;
+#deploy-link-one{
+    text-decoration: none;
 }
 
-#contact-form-message{
-    margin-top: 35px;
+#code-link-one{
+    text-decoration: none;
+    color: black;
 }
+
+#deploy-link-two{
+    text-decoration: none;
+}
+
+#code-link-two{
+    text-decoration: none;
+    color: black;
+}
+
+#deploy-link-three{
+    text-decoration: none;
+}
+
+#code-link-three{
+    text-decoration: none;
+    color: black;
+}
+
+#name{
+    font-size: 24px;
+    
+}
+
 
 #container-one {
     position: relative;
@@ -159,6 +184,7 @@ form{
     font-family: 'Bahianita', cursive;
     font-family: 'Yantramanav', sans-serif;
     padding: 5px 10px;
+    color: black;
 }
   
 
