@@ -96,8 +96,15 @@ form{
     margin-bottom: 5px;
 }
 
+#self-image{
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 100px;
+    
+}
+
 #about-title{
-    margin-top: 50px;
+    margin-top: 0px;
     background-color:transparent !important;
     font-family: 'Bahianita', cursive;
     font-family: 'Yantramanav', sans-serif;
