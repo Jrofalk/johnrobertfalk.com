@@ -77,6 +77,15 @@ form{
     margin-bottom: 5px;
 }
 
+#about-title{
+    margin-top: 50px;
+    background-color:transparent !important;
+    font-family: 'Bahianita', cursive;
+    font-family: 'Yantramanav', sans-serif;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
 #container-two{
     position: relative;
 }
