@@ -39,6 +39,16 @@ form{
     font-family: 'Yantramanav', sans-serif;
 }
 
+#resume{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 50%;
+    font-family: 'Bahianita', cursive;
+    font-family: 'Yantramanav', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
 
 #deploy-link-one{
     text-decoration: none;
