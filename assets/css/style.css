@@ -33,10 +33,12 @@ form{
 
 #about-me{
     margin: 0 auto;
+    margin-bottom: 50px;
     width: 50%;
     font-family: 'Bahianita', cursive;
     font-family: 'Yantramanav', sans-serif;
 }
+
 
 #deploy-link-one{
     text-decoration: none;
