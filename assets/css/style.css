@@ -325,5 +325,24 @@ form{
     padding: 5px 10px;
     color: black;
 }
+
+
+@media screen and (max-width: 980px) {
+   
+  
+  }
   
 
+@media screen and (max-width: 768px) {
+    
+  
+  }
+  
+  
+  @media screen and (max-width: 640px) {
+    
+      
+    
+     
+  
+  }
