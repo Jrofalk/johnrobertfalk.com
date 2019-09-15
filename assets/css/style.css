@@ -354,7 +354,22 @@ form{
     opacity: 0.3;
 }
 
+#middle-two{
+    transition: none;
+    opacity: 1;
+}
 
+#about{
+    opacity: 0.3;
+}
 
-      
+#middle-three{
+    transition: none;
+    opacity: 1;
+}
+
+#contact{
+    opacity: 0.3;
+}
+     
 }
