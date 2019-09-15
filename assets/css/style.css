@@ -290,7 +290,11 @@ form{
 }
   
   
-#container-one:hover, #container-one:active #work { 
+#container-one:hover #work { 
+    opacity: 0.3;
+}
+
+#container-one:active #work {
     opacity: 0.3;
 }
 
