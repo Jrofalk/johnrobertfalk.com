@@ -290,7 +290,7 @@ form{
 }
   
   
-#container-one:hover #work {
+#container-one:hover, #container-one:active #work { 
     opacity: 0.3;
 }
 
@@ -330,19 +330,27 @@ form{
 @media screen and (max-width: 980px) {
    
   
-  }
+}
   
 
 @media screen and (max-width: 768px) {
     
   
-  }
+}
   
   
   @media screen and (max-width: 640px) {
     
+/* #middle-one{
+    transition: none;
+    opacity: 1;
+}
+
+#work{
+    opacity: 0.3;
+} */
+
+
+
       
-    
-     
-  
-  }
+}
