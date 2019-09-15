@@ -289,12 +289,7 @@ form{
 
 }
   
-  
 #container-one:hover #work { 
-    opacity: 0.3;
-}
-
-#container-one:active #work {
     opacity: 0.3;
 }
 
@@ -371,5 +366,26 @@ form{
 #contact{
     opacity: 0.3;
 }
-     
+
+#middle-four{
+    transition: none;
+    opacity: 1;
+}
+
+#work-rabbits{
+   opacity: 0.5;
+}
+
+#work-train{
+    opacity: 0.5;
+ }
+
+ #work-gif{
+    opacity: 0.5;
+ }
+
+ #work-friend{
+     opacity: 0.5;
+ }
+
 }
