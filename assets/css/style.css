@@ -107,6 +107,21 @@ form{
     color: white !important;
 }
 
+#work-link{
+    color: white !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#about-link{
+    color: white !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#contact-link{
+    color: white !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 #name{
     font-size: 24px;
     transform: rotate(-10deg);
