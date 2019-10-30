@@ -125,6 +125,7 @@ form{
 #name{
     font-size: 24px;
     transform: rotate(-10deg);
+    text-shadow: 0px 0 rgb(160, 146, 146), 0 20px rgb(224, 224, 224), 0px 0 rgb(160, 146, 146), 0 0px rgb(160, 146, 146);
 }
 
 
